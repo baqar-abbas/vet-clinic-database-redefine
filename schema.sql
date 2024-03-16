@@ -14,3 +14,8 @@ CREATE TABLE animals (
     nuetered BOOLEAN NOT NULL,
     weight_kg DECIMAL NOT NULL
 );
+
+/* Project Milestone 2 - query and update animals table */
+/* Add a column species of type string to your animals table. */
+
+ALTER TABLE animals ADD COLUMN species VARCHAR(50);
